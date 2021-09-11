@@ -12,9 +12,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <meta name="DC.title" content="IDX-Repo's Home Page by Three Musketeerz">
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/night.css" id="theme">
-  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="assets/css/reveal.css">
+  <link rel="stylesheet" href="assets/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="assets/lib/css/zenburn.css">
   <script>
    var link = document.createElement( 'link' );
    link.rel = 'stylesheet';
@@ -23,7 +23,7 @@
    document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
   <!--[if lt IE 9]>
-   <script src="lib/js/html5shiv.js"></script>
+   <script src="assets/lib/js/html5shiv.js"></script>
   <![endif]-->
  </head>
  <body>
@@ -40,17 +40,18 @@
      <h2>Sub Projects :</h2>
      <ul>
       <li><a href="https://github.com/idx-repo/kbli">Klasifikasi Baku Lapangan Usaha Indonesia</a></li>
-      <li><a href="https://github.com/idx-repo/registered-company-profile">Registered Company Profile</a></li>
-      <li><a href="https://github.com/idx-repo/simple-profile">Simple Profile</a></li>
-      <li><a href="https://github.com/idx-repo/idx-data-csv">IDX Data [CSV]</a></li>
+      <li><a href="https://github.com/idx-repo/registered-company-profile">Registered Company Profile / Data Perusahaan Tercatat</a></li>
+      <li><a href="https://github.com/idx-repo/simple-profile">Simple Profile / Profile Perusahaan</a></li>
+      <li><a href="https://github.com/idx-repo/idx-data">IDX Data</a></li>
+      <li><a href="https://github.com/idx-repo/idx-tools">IDX Tools / Perangkat</a></li>
      </ul>
     </section>
     <section>
      <h2>Team Members :</h2>
      <ul>
       <li><a href="https://twitter.com/koharjidan">Kohar Jidan</a>, Head Master.</li>
-      <li><a href="https://twitter.com/jokoput">Joko Putranto</a>, System Administrator.</li>
-      <li><a href="https://twitter.com/karinavega1989">Karina Vega</a>, Data Administration.</li>
+      <li><a href="https://twitter.com/jokoput">Joko Putranto</a>, Full-Stack Developer.</li>
+      <li><a href="https://twitter.com/karinavega1989">Karina Vega</a>, Data Scientist.</li>
      </ul>
     </section>
     <section>
@@ -60,12 +61,12 @@
     </section>
     <section>
      <h1>Thank's for Coming...</h1>
-     <p><small><a href="https://three-musketeerz.github.io/">Three Musketeerz</a></small></p>
+     <p><small>&copy; <a href="https://three-musketeerz.github.io/">Three Musketeerz</a></small> 2015 - 2021</p>
     </section>
    </div>
   </div>
-  <script src="lib/js/head.min.js"></script>
-  <script src="js/reveal.js"></script>
+  <script src="assets/lib/js/head.min.js"></script>
+  <script src="assets/js/reveal.js"></script>
   <script>
    Reveal.initialize({
     controls: true,
@@ -75,12 +76,12 @@
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'default', // none/fade/slide/convex/concave/zoom
     dependencies: [
-     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-     { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-     { src: 'markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+     { src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+     { src: 'assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+     { src: 'assets/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+     { src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+     { src: 'assets/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+     { src: 'assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
     ]
    });
   </script>
